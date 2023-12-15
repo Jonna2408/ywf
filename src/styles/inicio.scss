@@ -1,0 +1,214 @@
+.allContent{
+    width: 100%;
+    height: 100vh;
+    background: pink;
+    .logo{
+        width: 100%;
+        height: 20%;
+        background: black;
+        .img-logo{
+            width: 300px;
+            height: 300px;
+            position: relative;
+            z-index: 10;
+            top: -60px;
+            left: 40%;
+        }
+    }
+    .menu{
+        
+        .botonera {
+            width: 100vw;
+            height: 40px; 
+            background: #072139; 
+
+            .btnRojo{
+                width: 380px;
+                height: 38px;
+                flex-shrink: 0; 
+                border-radius: 10px;
+                border: 2px solid #FF0303; 
+                margin-top: 1px;
+                margin-left: 4px;
+                
+            }
+            
+            .lblbtn{
+                display: flex;
+                transform: rotate(0.326deg);
+                flex-direction: column;
+                justify-content: center;
+                flex-shrink: 8; 
+                color: #FFF;
+                font-family: Algerian;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 1;
+                text-transform: uppercase; 
+                top: -1px;
+                position: relative;
+            }
+        }
+    }    
+    .carusel{
+        width: 100%;
+        height: 55vh;
+        background: linear-gradient(#0E5DA7, #031C30);
+    /*  #prueba {
+                animation-duration: 10s;
+                animation-name: slidein;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+              }
+              
+              @keyframes slidein {
+                from {
+                  scroll-margin-inline-end: 0%;
+                  width: 300%;
+                }
+              
+                to {
+                    scroll-margin-left: -100%;
+                  width: 100%;
+                }}
+         */
+}
+    
+
+    .nombre{
+        display: flex;
+        width: 1536px;
+        height: 144px;
+        flex-direction: row;
+        justify-content: center;
+        flex-shrink: 0;
+        background: url("../assets/images/fondonegro.png");
+        background-size: contain;
+        
+        .Y{
+            color: #FC1919;
+            font-family: Algerian;
+            font-size: 106px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            text-transform: uppercase;
+            margin-top: 1px;
+            margin-right: 60px;
+            
+        }
+        .E{
+            color: #FC1919;
+            font-family: Algerian;
+            font-size: 103px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            text-transform: uppercase;
+            margin-top: 1px;
+            margin-right: 50px;
+        }
+        .R{
+            color: #F4890C;
+            font-family: Algerian;
+            font-size: 100px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            text-transform: uppercase;
+            margin-top: 1px;
+            margin-right: 50px;
+        }
+        .W{
+            color: #FAFF00;
+            font-family: Algerian;
+            font-size: 97px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            text-transform: uppercase;
+            margin-top: 1px;
+            margin-right: 50px;
+
+        }
+        .I{
+            color: #ABFE22;
+            font-family: Algerian;
+            font-size: 94px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            text-transform: uppercase;
+            margin-top: 1px;
+            margin-right: 50px;
+        }
+        .L{
+            color: #03F046;
+            font-family: Algerian;
+            font-size: 91px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            text-transform: uppercase;
+            margin-top: 1px;
+            margin-right: 50px;
+        }
+        .L2{
+            color: #0EFADE;
+            font-family: Algerian;
+            font-size: 94px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            text-transform: uppercase;
+            margin-top: 1px;
+            margin-right: 50px;
+        }
+        .F{
+            color: #3858FF;
+            font-family: Algerian;
+            font-size: 97px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            text-transform: uppercase;  
+            margin-top: 1px;
+            margin-right: 50px;
+        }
+        .R2{
+            color: #6E00FA;
+            font-family: Algerian;
+            font-size: 100px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            text-transform: uppercase;
+            margin-top: 1px;
+            margin-right: 50px;
+        }
+        .E2{
+            color: #FC32C3;
+            font-family: Algerian;
+            font-size: 103px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: uppercase;
+            margin-top: 1px;
+            margin-right: 50px;
+        }
+        .E3{
+            color: #FC32C3;
+            font-family: Algerian;
+            font-size: 108px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: uppercase;
+            margin-top: 1px;
+            margin-right: 60px;
+        }
+        
+    }
+}

@@ -1,0 +1,38 @@
+.allContent{
+    .medio{
+        background: lightblue;
+        height: 860px;
+        position: relative;
+        .titlePromociones{
+            height: 150px;
+            background: lawngreen;
+        }
+
+        .descripcion{
+            height: 550px;
+            background: lightgreen;
+
+            .imgJona1{
+                height:530px;
+                margin: 10px;
+                background: lightcoral;
+                width: 25%;
+            }
+
+            .txtDescripcion{
+                height:530px;
+                margin: 10px;
+                width: 35%;
+            }
+
+            .imgRigth{
+                height:530px;
+                margin: 10px;
+                background: rebeccapurple;
+                width: 40%;
+            }
+
+
+        }
+    }
+}
