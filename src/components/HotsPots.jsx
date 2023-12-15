@@ -7,7 +7,7 @@ export const HotsPots = ({idImagen}) => {
  const response = useFetch(`https://localhost:7257/api/GetHotspots?nombreImagen=${imagen}`);
 
   if(response.loading || !response.result){
-    return"cargando..."
+    return"cargando.."
   }
   
   const{imagenes}=response.result;
